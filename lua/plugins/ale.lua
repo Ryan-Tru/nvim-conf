@@ -10,6 +10,7 @@ return {
             ruby = {'rubocop', 'ruby'},
             lua = {'lua_language_server'},
             python = {'flake8', 'mypy', 'pylint', 'pyright', 'ruff'},
+            cpp = {'cpplint'},
         }
     end
 }

@@ -1,15 +1,15 @@
 -- UI stuff
 vim.wo.relativenumber = true
 vim.wo.rnu = true
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
 vim.opt.wrap = true
 vim.opt.textwidth = 79
 vim.opt.expandtab = true
 vim.opt.colorcolumn = "79"
 
-vim.cmd[[colorscheme onedark_vivid]]
+vim.cmd[[colorscheme peachpuff]]
 
 -- Insert mode stuff
 vim.keymap.set("i", "<C-k>", "<Up>")
@@ -58,7 +58,7 @@ require("toggleterm").setup{
 
 
 -- ALE stuff
-vim.g.ale_virtualtext_cursor = 'current'
+vim.g.ale_virtualtext_cursor = 0
 vim.g.ale_warn_about_trailing_blank_lines = false
 vim.g.ale_warn_about_trailing_whitespace = false
 
